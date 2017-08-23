@@ -1,0 +1,43 @@
+{
+  "name": "MyFridge",
+  "version": "0.1.0",
+  "eslintConfig": {
+    "env": {
+      "browser": true,
+      "node": true
+    }
+  },
+  "private": true,
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "bootstrap": "^3.3.7",
+    "classnames": "^2.2.5",
+    "cors": "^2.8.4",
+    "express": "^4.15.4",
+    "foreman": "^2.0.0",
+    "jquery-ajax": "^2.1.4",
+    "moment": "^2.18.1",
+    "mongoose": "^4.11.6",
+    "nodemon": "^1.11.0",
+    "prop-types": "^15.5.10",
+    "react": "^15.6.1",
+    "react-datepicker": "^0.53.0",
+    "react-dom": "^15.6.1",
+    "react-scripts": "1.0.11"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "babel-eslint": "^7.2.3",
+    "eslint": "^4.4.1",
+    "eslint-config-airbnb": "^15.1.0",
+    "eslint-config-google": "^0.9.1",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-jsx-a11y": "^5.1.1",
+    "eslint-plugin-react": "^7.2.1"
+  }
+}
